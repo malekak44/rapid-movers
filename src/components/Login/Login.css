@@ -1,0 +1,97 @@
+.form-container {
+    max-width: 350px;
+    margin: auto;
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 4%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.form-container .btn {
+    background-color: #00c3ff !important;
+    border: none !important;
+    font-weight: 500;
+    margin-top: 15px;
+    width: 100%;
+    padding: 8px 0px;
+}
+
+.form-container .btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: white !important;
+    color: #00c3ff;
+}
+
+.form-group {
+    margin-top: 10px !important;
+}
+
+.form-container input:focus {
+    color: #00c3ff;
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00c3ff !important;
+}
+
+.form-container p {
+    margin: auto;
+    margin-top: 10px !important;
+    margin-bottom: 0 !important;
+    display: block !important;
+}
+
+#registerForm p {
+    width: 75% !important;
+}
+
+.form-text,
+#loginError {
+    color: red !important;
+    text-align: center !important;
+}
+
+#emailHelp,
+#passHelp,
+#cpassHelp {
+    display: none;
+}
+
+
+.form-check {
+    margin-top: 10px !important;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+}
+
+.auth-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.auth-media img {
+    width: 56px;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.auth-media img:hover {
+    box-shadow: 0px 0px 10px white;
+}
+
+#registerForm {
+    display: none;
+}
+
+.form-container label {
+    margin-bottom: 5px !important;
+}
