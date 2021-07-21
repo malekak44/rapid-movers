@@ -8,5 +8,6 @@
 @media only screen and (max-width: 768px) {
     .vehicles-container {
         display: block;
+        margin-bottom: 5%;
     }
 }
