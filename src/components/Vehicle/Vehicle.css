@@ -10,3 +10,11 @@
     display: block;
     margin: auto;
 }
+
+@media only screen and (max-width: 768px) {
+    #card {
+        width: 280px;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
