@@ -1,1 +1,1 @@
-Rapid Movers is a transportation website. You can search for different transport services based on your location. You can visit the website right here https://rapid-movers.firebaseapp.com/
+Rapid Movers is a authentication application. You can signup or login using email, google, facebook or github. You can visit the website right here https://rapid-movers.firebaseapp.com/
