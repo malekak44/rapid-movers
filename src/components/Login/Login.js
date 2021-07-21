@@ -20,7 +20,7 @@ if (!firebase.apps.length) {
 
 const Login = () => {
     const [signedInUser, setSignedInUser] = useContext(UserContext);
-    const history =useHistory();
+    const history = useHistory();
     const location = useLocation();
     let { from } = location.state || { from: { pathname: "/" } };
 
@@ -89,9 +89,11 @@ const Login = () => {
                 .then((result) => {
                     const createdUser = { ...user };
                     setUser(createdUser);
-                    return result.user.updateProfile({
+                    result.user.updateProfile({
                         displayName: user.name
                     })
+                    setSignedInUser(createdUser);
+                    history.replace(from);
                 })
                 .catch((error) => {
                     console.log(error);
